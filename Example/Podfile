@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AVTabBar_Example' do
+  pod 'AVTabBar', :path => '../'
+
+  target 'AVTabBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

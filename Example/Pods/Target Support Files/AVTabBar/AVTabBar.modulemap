@@ -1,0 +1,6 @@
+framework module AVTabBar {
+  umbrella header "AVTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

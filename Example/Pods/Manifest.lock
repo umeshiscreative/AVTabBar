@@ -1,0 +1,16 @@
+PODS:
+  - AVTabBar (0.1.0)
+
+DEPENDENCIES:
+  - AVTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  AVTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AVTabBar: bb4274d1760f3c8fedba9ea2f1f901110a040f1d
+
+PODFILE CHECKSUM: 255a375fbc1e10946d660c8440980c30d479fb80
+
+COCOAPODS: 1.8.4

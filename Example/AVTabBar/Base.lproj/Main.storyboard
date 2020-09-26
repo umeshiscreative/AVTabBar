@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Yxr-vB-odp">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Chats-->
+        <scene sceneID="bhj-8k-Y14">
+            <objects>
+                <viewController id="Gyf-tm-4A7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AML-b3-UK1"/>
+                        <viewControllerLayoutGuide type="bottom" id="t7v-jY-Xrv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PWS-R3-UIe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="eIy-fo-NXH">
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vza-mS-MOT">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
+                                        <color key="textColor" name="Primary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ne-j7-WVC">
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
+                                        <color key="textColor" name="Tertiary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eIy-fo-NXH" secondAttribute="trailing" constant="24" id="4Mg-hG-B6M"/>
+                            <constraint firstItem="eIy-fo-NXH" firstAttribute="leading" secondItem="nQi-Am-5EY" secondAttribute="leading" constant="24" id="9eZ-we-lfR"/>
+                            <constraint firstItem="eIy-fo-NXH" firstAttribute="top" secondItem="nQi-Am-5EY" secondAttribute="top" constant="40" id="wx9-CI-aN8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nQi-Am-5EY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chats" image="streamline-icon-messages-bubble-text_1" id="j7b-8E-DBL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asE-MM-4ch" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623" y="943"/>
+        </scene>
+        <!--Yoga-->
+        <scene sceneID="GAC-0q-8Xa">
+            <objects>
+                <viewController id="IFi-HB-2Fe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="neH-hb-y5i"/>
+                        <viewControllerLayoutGuide type="bottom" id="yq9-a1-0D7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bYe-RI-7fF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Rwh-Ej-ywf">
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yoga" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAQ-cg-VoX">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
+                                        <color key="textColor" name="Primary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAc-1O-iBM">
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
+                                        <color key="textColor" name="Tertiary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rwh-Ej-ywf" firstAttribute="top" secondItem="SeG-12-psC" secondAttribute="top" constant="40" id="Or7-GB-tg6"/>
+                            <constraint firstAttribute="trailing" secondItem="Rwh-Ej-ywf" secondAttribute="trailing" constant="24" id="blc-BF-1ix"/>
+                            <constraint firstItem="Rwh-Ej-ywf" firstAttribute="leading" secondItem="SeG-12-psC" secondAttribute="leading" constant="24" id="xmg-Su-GYY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SeG-12-psC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Yoga" image="streamline-icon-yoga-meditate" id="iRf-hU-FbK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Rw-eq-EnG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1453" y="942"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ycY-Lq-MzY">
+            <objects>
+                <tabBarController id="Yxr-vB-odp" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YI4-zo-GDf" customClass="AVTabBar" customModule="AVTabBar">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="heightRatio">
+                                <real key="value" value="0.14000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="topCornerRadious">
+                                <real key="value" value="60"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tabbarBackgroundColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="selectedColor">
+                                <color key="value" name="Primary"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unSelectedColor">
+                                <color key="value" name="Secondary"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="labelOffset">
+                                <real key="value" value="-20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="bottomCornerRadious">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Ubuntu"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="IFi-HB-2Fe" kind="relationship" relationship="viewControllers" id="j8L-zg-vob"/>
+                        <segue destination="Gyf-tm-4A7" kind="relationship" relationship="viewControllers" id="QO2-M3-9PJ"/>
+                        <segue destination="6rH-Xt-K8B" kind="relationship" relationship="viewControllers" id="5ai-R0-yYS"/>
+                        <segue destination="DOG-Cs-eNf" kind="relationship" relationship="viewControllers" id="bbL-Kx-TaM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bLS-Hq-VCj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-255" y="92"/>
+        </scene>
+        <!--Articles-->
+        <scene sceneID="cGd-Do-Rc7">
+            <objects>
+                <viewController id="6rH-Xt-K8B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rzk-xt-wsb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cgm-JC-q9G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SKn-ec-WqN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="nnA-9U-ZOB">
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Articles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="657-uj-4JP">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
+                                        <color key="textColor" name="Primary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVp-A0-3w3">
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
+                                        <color key="textColor" name="Tertiary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nnA-9U-ZOB" firstAttribute="leading" secondItem="eD6-BR-0V2" secondAttribute="leading" constant="24" id="KY8-xv-xXB"/>
+                            <constraint firstAttribute="trailing" secondItem="nnA-9U-ZOB" secondAttribute="trailing" constant="24" id="cip-V5-91w"/>
+                            <constraint firstItem="nnA-9U-ZOB" firstAttribute="top" secondItem="eD6-BR-0V2" secondAttribute="top" constant="40" id="dhN-i1-ceF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eD6-BR-0V2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Articles" image="streamline-icon-newspaper-read" id="VdI-kQ-hwd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fay-N1-ain" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="941"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Kgf-bK-3fV">
+            <objects>
+                <viewController id="DOG-Cs-eNf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CFg-ov-RJM"/>
+                        <viewControllerLayoutGuide type="bottom" id="qSo-wy-cBR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NVd-Ra-DIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="hai-2N-xVF">
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjb-Sn-RmW">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
+                                        <color key="textColor" name="Primary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AT-nz-aip">
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
+                                        <color key="textColor" name="Tertiary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hai-2N-xVF" firstAttribute="top" secondItem="uAm-tp-G5F" secondAttribute="top" constant="40" id="uel-ek-Szb"/>
+                            <constraint firstItem="hai-2N-xVF" firstAttribute="leading" secondItem="uAm-tp-G5F" secondAttribute="leading" constant="24" id="vKp-TQ-ANu"/>
+                            <constraint firstAttribute="trailing" secondItem="hai-2N-xVF" secondAttribute="trailing" constant="24" id="yH5-hd-rva"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uAm-tp-G5F"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="streamline-icon-cog" id="NJg-Uq-Zaw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dek-F8-78E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848" y="942"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="streamline-icon-cog" width="25" height="25"/>
+        <image name="streamline-icon-messages-bubble-text_1" width="25" height="25"/>
+        <image name="streamline-icon-newspaper-read" width="25" height="25"/>
+        <image name="streamline-icon-yoga-meditate" width="25" height="25"/>
+        <namedColor name="Primary">
+            <color red="0.72500002384185791" green="0.62699997425079346" blue="0.53700000047683716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary">
+            <color red="0.29399999976158142" green="0.28600001335144043" blue="0.28200000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Tertiary">
+            <color red="0.71799999475479126" green="0.68599998950958252" blue="0.67100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
