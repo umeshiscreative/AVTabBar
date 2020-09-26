@@ -10,50 +10,72 @@ import UIKit
 @IBDesignable
 @objcMembers open class AVTabBar: UITabBar {
     
+    /**
+     * HeightRatio will cross with screen height to calculate tabbar height.
+     * Default value will change in different enviroments iphone, iphoneX, iPad, etc.
+     */
     @IBInspectable public var heightRatio: CGFloat = CGFloat(AVTabBarHeightRatios.bestSize.rawValue) {
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * CornerRadius of top edges for TabBar container.
+     * Default value will change in different enviroments iphone, iphoneX, iPad, etc.
+     */
     @IBInspectable public var topCornerRadious: CGFloat = AVTabBarHeightRatios.bestSize.cornerRadius(){
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * CornerRadius of bottom edges for Tabbar container.
+     * Default value will change in different enviroments iphone, iphoneX, iPad, etc.
+     */
     @IBInspectable public var bottomCornerRadious: CGFloat = AVTabBarHeightRatios.bestSize.cornerRadius(){
         didSet {
             layoutIfNeeded()
         }
     }
-        
     
+    /**
+     * Change the background color of tabbar.
+     */
     @IBInspectable public var tabbarBackgroundColor: UIColor = .white  {
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * Shadow color of tabbar
+     */
     @IBInspectable public var shadowColor: UIColor = UIColor(white: 0, alpha: 0.2)  {
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * HeightRatio will cross with screen height to calculate tabbar height.
+     * Default value will change in different enviroments iphone, iphoneX, iPad, etc.
+     */
     @IBInspectable public var shadowRadius: CGFloat = 10.0  {
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * Selected font of tabbar titles
+     */
     public var selectedFont: UIFont = .systemFont(ofSize: 12)
     
+    /**
+     * Set font name as `string` name.
+     */
     @IBInspectable public var fontName: String = "Ubuntu" {
         didSet {
             self.selectedFont = UIFont(name: fontName, size: 12) ?? .systemFont(ofSize: 12)
@@ -61,27 +83,36 @@ import UIKit
         }
     }
     
-    
+    /**
+     * Selected Color of Tab bar Item.
+     */
     @IBInspectable public var selectedColor: UIColor = .blue  {
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * Not Selected Color of Tab bar Item
+     */
     @IBInspectable public var unSelectedColor: UIColor = .blue  {
         didSet {
             layoutIfNeeded()
         }
     }
     
-    
+    /**
+     * Hide is tabbar title text.
+     */
     @IBInspectable public var isShowTitle: Bool = true {
         didSet {
             layoutIfNeeded()
         }
     }
     
+    /**
+     * LabelOffset is the space between tab's icon and the title lable
+     */
     @IBInspectable public var labelOffset: CGFloat = 0.0  {
         didSet {
             layoutIfNeeded()
