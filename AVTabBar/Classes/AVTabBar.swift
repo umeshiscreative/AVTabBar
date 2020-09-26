@@ -76,8 +76,11 @@ import UIKit
     }
     
     
-    @IBInspectable public var isShowTitle: Bool = true
-    
+    @IBInspectable public var isShowTitle: Bool = true {
+        didSet {
+            layoutIfNeeded()
+        }
+    }
     
     @IBInspectable public var labelOffset: CGFloat = 0.0  {
         didSet {

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AVTabBar'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This is a simple Cocoapod for creating Tabbar in iOS.'
   s.description      = <<-DESC
 "This is a simple Cocoapod for creating Tabbar in iOS. Its provide some basic extension and subclassing for UIKit for UI Designs."

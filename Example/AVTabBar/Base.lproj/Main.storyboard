@@ -30,16 +30,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="eIy-fo-NXH">
-                                <rect key="frame" x="24" y="40" width="327" height="98"/>
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vza-mS-MOT">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
                                         <color key="textColor" name="Primary"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ne-j7-WVC">
-                                        <rect key="frame" x="0.0" y="71" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
                                         <color key="textColor" name="Tertiary"/>
                                         <nil key="highlightedColor"/>
@@ -74,16 +74,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Rwh-Ej-ywf">
-                                <rect key="frame" x="24" y="40" width="327" height="98"/>
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yoga" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAQ-cg-VoX">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
                                         <color key="textColor" name="Primary"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAc-1O-iBM">
-                                        <rect key="frame" x="0.0" y="71" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
                                         <color key="textColor" name="Tertiary"/>
                                         <nil key="highlightedColor"/>
@@ -168,16 +168,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="nnA-9U-ZOB">
-                                <rect key="frame" x="24" y="40" width="327" height="98"/>
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Articles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="657-uj-4JP">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
                                         <color key="textColor" name="Primary"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVp-A0-3w3">
-                                        <rect key="frame" x="0.0" y="71" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
                                         <color key="textColor" name="Tertiary"/>
                                         <nil key="highlightedColor"/>
@@ -212,16 +212,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="hai-2N-xVF">
-                                <rect key="frame" x="24" y="40" width="327" height="98"/>
+                                <rect key="frame" x="24" y="40" width="327" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjb-Sn-RmW">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="24"/>
                                         <color key="textColor" name="Primary"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AT-nz-aip">
-                                        <rect key="frame" x="0.0" y="71" width="327" height="27"/>
+                                        <rect key="frame" x="0.0" y="72" width="327" height="28"/>
                                         <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="20"/>
                                         <color key="textColor" name="Tertiary"/>
                                         <nil key="highlightedColor"/>
